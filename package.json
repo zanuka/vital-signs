@@ -1,4 +1,6 @@
 {
+  "vue-vitesse-dashboard": true,
+  "author": "zanuka",
   "private": true,
   "scripts": {
     "dev": "vite --port 3333 --open",
