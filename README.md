@@ -1,4 +1,4 @@
 ### vital signs
-a simple control panel / dashboard prototype
+simple control panel / dashboard prototype
 
 vite base template ::  [anitfu/vitesse](https://github.com/antfu/vitesse)
