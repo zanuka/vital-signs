@@ -14,7 +14,11 @@ const toggleLocales = () => {
 <template>
   <nav class="text-xl mt-6">
     <router-link class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <carbon-campsite />
+      <carbon-hotel />
+    </router-link>
+
+    <router-link class="icon-btn mx-2" to="/dashboard" :title="t('button.about')">
+      <carbon-laptop/>
     </router-link>
 
     <a class="icon-btn mx-2" :title="t('button.toggle_dark')" @click="toggleDark">
@@ -27,10 +31,10 @@ const toggleLocales = () => {
     </a>
 
     <router-link class="icon-btn mx-2" to="/about" :title="t('button.about')">
-      <carbon-dicom-overlay />
+      <carbon-information />
     </router-link>
 
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/zanuka/vital-signs" target="_blank" title="GitHub">
       <carbon-logo-github />
     </a>
   </nav>
